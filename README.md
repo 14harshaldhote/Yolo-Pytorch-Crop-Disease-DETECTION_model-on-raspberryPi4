@@ -14,20 +14,20 @@ Roboflow also give us tool for pre-processing and augmenttaion. In pre-processin
 You can look into customModel.ipynb where each any every steps of model training is given. Do not forget to copy-paste api key of your custom dataset from Roboflow. 
 
 <h3>Deploy custom Model on Raspberry pi 4</h3>
-- You must have 64-bit Raspberry pi OS installed on your Raspberry Pi (or visti https://www.raspberrypi.com/software/).
-- Follow the steps :
-    step 1: Open terminal, paste "sudo git clone https://github.com/14harshaldhote/Yolo-Pytorch-Crop-Disease-DETECTION_model-on-raspberryPi4"
-    step 2: Go inside the repo "cd Yolo-Pytorch-Crop-Disease-DETECTION_model-on-raspberryPi4" 
-    step 3: "cd rpi4Opencv4.5"
-    step 4: "ls" using this command you will get to see a bash file named install.sh
-    step 5: "sudo chmod 775 install.sh" 
-    step 6: "ls" now your file comes in green colour 
-    step 7: Run script file "sudo ./install.sh" as this command run all the dependecies like torchVision, pyTorch, etc. get install on your raspberry pi
-    step 8: Come out of all the folders using "cd" 
-    step 9: Install Yolo V5 "sudo pip3 install yolov5"
-    step 10: You need to change the ownership " sudo chown -R pi:pi ***path of your yolov5 file***" in mine the command was " sudo chown -R pi:pi /usr/local/lib/Python-3.8/dist-packages/yolov5"
-    step 11: You can do some path changes in detect.py file according to need (like for giving image data for testing or saving the result )
-    step 12: To run detect.py file "sudo yolov5 detect" or if you have camera attached to it "sudo yolov5 detect --source 0" here 0 is the index number of the camera device
+- You must have 64-bit Raspberry pi OS installed on your Raspberry Pi (or visti https://www.raspberrypi.com/software/) <br>
+- Follow the steps :<br>
+    step 1: Open terminal, paste "$ sudo git clone https://github.com/14harshaldhote/Yolo-Pytorch-Crop-Disease-DETECTION_model-on-raspberryPi4"<br>
+    step 2: Go inside the repo "$ cd Yolo-Pytorch-Crop-Disease-DETECTION_model-on-raspberryPi4" <br>
+    step 3: "$ cd rpi4Opencv4.5"<br>
+    step 4: "$ ls" using this command you will get to see a bash file named install.sh<br>
+    step 5: "$ sudo chmod 775 install.sh" <br>
+    step 6: "$ ls" now your file comes in green colour <br>
+    step 7: Run script file "$ sudo ./install.sh" as this command run all the dependecies like torchVision, pyTorch, etc. get install on your raspberry pi<br>
+    step 8: Come out of all the folders using "$ cd" <br>
+    step 9: Install Yolo V5 "$ sudo pip3 install yolov5"<br>
+    step 10: You need to change the ownership "$  sudo chown -R pi:pi ***path of your yolov5 file***" in mine the command was "$  sudo chown -R pi:pi /usr/local/lib/Python-3.8/dist-packages/yolov5"<br>
+    step 11: You can do some path changes in detect.py file according to need (like for giving image data for testing or saving the result )<br>
+    step 12: To run detect.py file "$ sudo yolov5 detect" or if you have camera attached to it "$ sudo yolov5 detect --source 0" here 0 is the index number of the camera device<br>
     step 13: You will get the result on the folder which you have or if you are running on camera you get the results on treminal
     
     
