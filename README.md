@@ -18,7 +18,7 @@ You can look into customModel.ipynb where each any every steps of model training
 - Follow the steps :<br>
     step 1: Open terminal, paste "$ sudo git clone https://github.com/14harshaldhote/Yolo-Pytorch-Crop-Disease-DETECTION_model-on-raspberryPi4"<br>
     step 2: Go inside the repo "$ cd Yolo-Pytorch-Crop-Disease-DETECTION_model-on-raspberryPi4" <br>
-    step 3: "$ cd rpi4Opencv4.5"<br>
+    step 3: "$ cd yolov5rpi4"<br>
     step 4: "$ ls" using this command you will get to see a bash file named install.sh<br>
     step 5: "$ sudo chmod 775 install.sh" <br>
     step 6: "$ ls" now your file comes in green colour <br>
