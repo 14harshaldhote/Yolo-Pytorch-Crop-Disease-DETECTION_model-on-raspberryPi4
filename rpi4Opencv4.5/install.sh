@@ -1,3 +1,4 @@
+
 sudo apt-get -y install python3-pip libjpeg-dev libopenblas-dev libopenmpi-dev libomp-dev
 sudo -H pip3 install gdown
 gdown https://drive.google.com/uc?id=1E4bP9NAG5pDSXGWYPGsJ5uzFBq47VN14
