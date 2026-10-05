@@ -1,2 +1,13 @@
 __pycache__/
 *.pyc
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+
+# Dataset downloaded from Roboflow, and new training runs
+vf-2/
+runs/train/*
+!runs/train/dt_result5/
+runs/detect/exp[0-9]*/

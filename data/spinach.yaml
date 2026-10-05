@@ -1,0 +1,10 @@
+# Spinach leaf disease dataset (Roboflow project vf-ystlc, version 2, CC BY 4.0)
+# https://universe.roboflow.com/ghrce-a8zlp/vf-ystlc/dataset/2
+# Download it in "YOLOv5 PyTorch" format into ./vf-2 to train; detect.py only needs the class names.
+path: vf-2
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 3
+names: ['good', 'infected', 'yellow']
