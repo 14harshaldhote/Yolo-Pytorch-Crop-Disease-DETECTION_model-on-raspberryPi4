@@ -1,0 +1,8 @@
+# Detection API (no PyTorch needed). Runs on x86-64 and 64-bit ARM, including Raspberry Pi 4.
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+python-multipart>=0.0.18
+onnxruntime>=1.18,<2
+opencv-python-headless>=4.8,<5
+numpy>=1.24,<3
+Pillow>=10.3

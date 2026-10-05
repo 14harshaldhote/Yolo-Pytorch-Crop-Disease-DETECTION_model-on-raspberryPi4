@@ -1,0 +1,5 @@
+*
+!app/
+!weights/best.onnx
+!requirements-api.txt
+**/__pycache__
